@@ -17,8 +17,9 @@ public class ForumAppApplication {
 
 
 	@Bean
-	public void initMessage(){
+	public Message initMessage(){
 
 		log.info("init Message");
+		return new Message();
 	}
 }
