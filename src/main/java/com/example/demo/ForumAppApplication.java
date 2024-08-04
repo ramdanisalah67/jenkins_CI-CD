@@ -19,7 +19,7 @@ public class ForumAppApplication {
 	@Bean
 	public Message initMessage(){
 
-		log.info("init Message");
+		log.info("pipeline start !!!");
 		return new Message();
 	}
 }

@@ -8,7 +8,7 @@ class ForumAppApplicationTests {
 
 	@Test
 	void testLengthName() {
-		assertEquals(5,"sazlah".length());
+		assertEquals(5,"salah".length());
 	}
 
 }
