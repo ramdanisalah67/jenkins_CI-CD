@@ -19,7 +19,7 @@ public class ForumAppApplication {
 	@Bean
 	public Message initMessage(){
 
-		log.info("create docker image using jenkins  !!!");
+		log.info("create docker image using jenkins !!!");
 		return new Message();
 	}
 }
