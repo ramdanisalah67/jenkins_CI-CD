@@ -19,7 +19,7 @@ public class ForumAppApplication {
 	@Bean
 	public Message initMessage(){
 
-		log.info("pipeline start !!!");
+		log.info("create docker image using jenkins  !!!");
 		return new Message();
 	}
 }
